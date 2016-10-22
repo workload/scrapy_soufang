@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+
+# Define here the models for your scraped items
+#
+# See documentation in:
+# http://doc.scrapy.org/en/latest/topics/items.html
+
+import scrapy
+
+
+class AppleItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    name = scrapy.Field()
+    resd1 = scrapy.Field()
+    resd2 = scrapy.Field()
+    coor_x = scrapy.Field()
+    coor_y = scrapy.Field()
+    url = scrapy.Field()
